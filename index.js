@@ -34,6 +34,12 @@ module.exports = function (config, windowParams) {
       state: generateRandomString(16)
     };
 
+    if(opts.additionalParameter) {
+      for (var key in opts.additionalParameter) {
+        urlParams.key = opts.additionalParameter[key];
+      }
+    }
+
     if (opts.scope) {
       urlParams.scope = opts.scope;
     }
