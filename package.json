@@ -1,13 +1,13 @@
 {
-  "name": "electron-oauth2",
-  "version": "2.4.1",
+  "name": "electron-oauth2-azure",
+  "version": "2.5.0",
   "description": "An OAuth2 module for your Electron app.",
   "license": "MIT",
-  "repository": "mawie81/electron-oauth2",
+  "repository": "mrksoftware/electron-oauth2",
   "author": {
-    "name": "Marcel Wiehle",
-    "email": "mawieh@googlemail.com",
-    "url": "marcel.wiehle.me"
+    "name": "Mirko Bellabarba",
+    "email": "mirko.bellabarba@gmail.com",
+    "url": "https://github.com/mawie81/electron-oauth2"
   },
   "files": [
     "index.js"

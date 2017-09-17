@@ -36,7 +36,7 @@ module.exports = function (config, windowParams) {
 
     if(opts.additionalParameter) {
       for (var key in opts.additionalParameter) {
-        urlParams.key = opts.additionalParameter[key];
+        urlParams[key] = opts.additionalParameter[key];
       }
     }
 
